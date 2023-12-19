@@ -1,0 +1,1384 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="CMakePresetLoader">{
+  &quot;useNewFormat&quot;: true
+}</component>
+  <component name="CMakeReloadState">
+    <option name="reloaded" value="true" />
+  </component>
+  <component name="CMakeRunConfigurationManager">
+    <generated>
+      <config projectName="LVGL_TEST" targetName="LVGL_TEST.elf" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+      <configuration PROFILE_NAME="debug" ENABLED="false" FROM_PRESET="true" GENERATION_DIR="$PROJECT_DIR$/build/debug/build" />
+      <configuration PROFILE_NAME="release" ENABLED="false" FROM_PRESET="true" GENERATION_DIR="$PROJECT_DIR$/build/release/build" />
+      <configuration PROFILE_NAME="debug - debug" ENABLED="false" FROM_PRESET="true" GENERATION_DIR="$PROJECT_DIR$/build/debug/build" />
+      <configuration PROFILE_NAME="release - release" ENABLED="false" FROM_PRESET="true" GENERATION_DIR="$PROJECT_DIR$/build/release/build" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6109b3df-473f-4994-8610-23493b270030" name="更改" comment="初始化LCD和后面所需外设">
+      <change afterPath="$PROJECT_DIR$/.cproject" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mxproject" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vs/launch.vs.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vscode/extensions.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vscode/launch.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vscode/settings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vscode/tasks.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CMakeLists_template.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CMakePresets.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Inc/24cxx.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Inc/AD9833.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Inc/FFT.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Inc/TFTSHOW.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Inc/Touch_Num.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Inc/adc.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Inc/ctiic.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Inc/delay.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Inc/dma.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Inc/font.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Inc/fsmc.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Inc/ft5206.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Inc/gpio.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Inc/gt9xxx.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Inc/key.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Inc/lcd.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Inc/lcdfont.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Inc/led.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Inc/main.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Inc/myiic.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Inc/rng.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Inc/stm32f4xx_hal_conf.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Inc/stm32f4xx_it.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Inc/sys.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Inc/tim.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Inc/touch.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Inc/usart.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Src/24cxx.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Src/AD9833.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Src/FFT.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Src/FreeRTOS_TASK.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Src/TFTSHOW.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Src/Touch_Num.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Src/adc.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Src/ctiic.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Src/delay.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Src/dma.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Src/fsmc.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Src/ft5206.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Src/gpio.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Src/gt9xxx.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Src/key.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Src/lcd.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Src/led.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Src/main.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Src/myiic.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Src/rng.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Src/stm32f4xx_hal_msp.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Src/stm32f4xx_it.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Src/sys.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Src/syscalls.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Src/sysmem.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Src/system_stm32f4xx.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Src/tim.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Src/touch.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Src/usart.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Startup/startup_stm32f407zgtx.s" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/CMSIS/Device/ST/STM32F4xx/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/CMSIS/Include/cmsis_armcc.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/CMSIS/Include/cmsis_armclang.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/CMSIS/Include/cmsis_compiler.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/CMSIS/Include/cmsis_gcc.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/CMSIS/Include/cmsis_iccarm.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/CMSIS/Include/cmsis_version.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/CMSIS/Include/core_armv8mbl.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/CMSIS/Include/core_armv8mml.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/CMSIS/Include/core_cm0.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/CMSIS/Include/core_cm0plus.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/CMSIS/Include/core_cm1.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/CMSIS/Include/core_cm23.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/CMSIS/Include/core_cm3.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/CMSIS/Include/core_cm33.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/CMSIS/Include/core_cm4.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/CMSIS/Include/core_cm7.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/CMSIS/Include/core_sc000.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/CMSIS/Include/core_sc300.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/CMSIS/Include/mpu_armv7.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/CMSIS/Include/mpu_armv8.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/CMSIS/Include/tz_context.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/CMSIS/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc_ex.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rng.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_sram.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_usart.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_adc.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_bus.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_cortex.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_dma.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_exti.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_fsmc.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_gpio.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_pwr.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_rcc.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_rng.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_system.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_tim.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_usart.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_utils.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rng.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sram.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_usart.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LVGL_TEST.ioc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/STM32F407ZGTX_FLASH.ld" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/STM32F407ZGTX_RAM.ld" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/croutine.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/event_groups.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/include/FreeRTOS.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/include/FreeRTOSConfig.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/include/StackMacros.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/include/atomic.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/include/croutine.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/include/deprecated_definitions.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/include/event_groups.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/include/list.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/include/message_buffer.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/include/mpu_wrappers.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/include/portable.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/include/projdefs.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/include/queue.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/include/semphr.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/include/stack_macros.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/include/stdint.readme" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/include/stream_buffer.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/include/task.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/include/timers.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/list.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/portable/GCC/ARM_CM4F/port.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/portable/GCC/ARM_CM4F/portmacro.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/portable/MemMang/heap_4.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/queue.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/stream_buffer.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/tasks.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/timers.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/query/cache-v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/query/codemodel-v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/query/toolchains-v1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cache-v2-fbcd265f545611dfa9d0.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-36a16d3adfa69507dfa4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-f4a129a168829e2faf9a.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/directory-.-Debug-d0094a50bb2071803777.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-LVGL_TEST.elf-Debug-858a474fdc0033c24771.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-fdd53656a8ccf32a57e7.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.26.4/CMakeASMCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.26.4/CMakeCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.26.4/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.26.4/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.26.4/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.26.4/CMakeSystem.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.26.4/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.26.4/CompilerIdC/CMakeCCompilerId.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.26.4/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.26.4/CompilerIdCXX/CMakeCXXCompilerId.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/Core/Src/24cxx.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/Core/Src/AD9833.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/Core/Src/FFT.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/Core/Src/FreeRTOS_TASK.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/Core/Src/TFTSHOW.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/Core/Src/Touch_Num.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/Core/Src/adc.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/Core/Src/ctiic.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/Core/Src/delay.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/Core/Src/dma.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/Core/Src/fsmc.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/Core/Src/ft5206.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/Core/Src/gpio.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/Core/Src/gt9xxx.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/Core/Src/key.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/Core/Src/lcd.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/Core/Src/led.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/Core/Src/main.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/Core/Src/myiic.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/Core/Src/rng.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/Core/Src/stm32f4xx_it.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/Core/Src/sys.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/Core/Src/syscalls.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/Core/Src/sysmem.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/Core/Src/system_stm32f4xx.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/Core/Src/tim.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/Core/Src/touch.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/Core/Src/usart.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/Core/Startup/startup_stm32f407zgtx.s.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rng.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sram.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_usart.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/Source/croutine.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/Source/event_groups.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/Source/list.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/Source/portable/GCC/ARM_CM4F/port.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/Source/portable/MemMang/heap_4.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/Source/queue.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/Source/stream_buffer.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/Source/tasks.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/Source/timers.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/custom/custom.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/generated/events_init.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/generated/gui_guider.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/generated/guider_fonts/lv_font_AlexBrush_Regular_18.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/generated/guider_fonts/lv_font_montserratMedium_12.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/generated/guider_fonts/lv_font_simsun_18.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/generated/setup_scr_screen_1.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/generated/widgets_init.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lv_lib_100ask/src/lv_100ask_2048/lv_100ask_2048.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lv_lib_100ask/src/lv_100ask_calc/lv_100ask_calc.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lv_lib_100ask/src/lv_100ask_file_explorer/lv_100ask_file_explorer.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lv_lib_100ask/src/lv_100ask_memory_game/lv_100ask_memory_game.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lv_lib_100ask/src/lv_100ask_nes/InfoNES.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lv_lib_100ask/src/lv_100ask_nes/InfoNES_Mapper.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lv_lib_100ask/src/lv_100ask_nes/InfoNES_System.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lv_lib_100ask/src/lv_100ask_nes/InfoNES_pAPU.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lv_lib_100ask/src/lv_100ask_nes/K6502.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lv_lib_100ask/src/lv_100ask_nes/lv_100ask_nes.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_000.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_001.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_002.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_003.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_004.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_005.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_006.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_007.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_008.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_009.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_010.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_074.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lv_lib_100ask/src/lv_100ask_page_manager/lv_100ask_page_manager.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lv_lib_100ask/src/lv_100ask_pinyin_ime/lv_100ask_pinyin_ime.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lv_lib_100ask/src/lv_100ask_sketchpad/lv_100ask_sketchpad.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lv_lib_100ask/test/lv_100ask_2048_test/simple_test.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lv_lib_100ask/test/lv_100ask_calc_test/simple_test.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lv_lib_100ask/test/lv_100ask_file_explorer/simple_test.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lv_lib_100ask/test/lv_100ask_memory_game_test/simple_test.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lv_lib_100ask/test/lv_100ask_nes_test/lv_100ask_nes_simple_test.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lv_lib_100ask/test/lv_100ask_page_manager_test/simple_test.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lv_lib_100ask/test/lv_100ask_pinyin_ime_test/lv_font_source_han_sans_normal_16.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lv_lib_100ask/test/lv_100ask_pinyin_ime_test/simple_test.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lv_lib_100ask/test/lv_100ask_sketchpad_test/simple_test.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/porting/lv_port_disp.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/porting/lv_port_fs.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/porting/lv_port_indev.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/core/lv_disp.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/core/lv_event.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/core/lv_group.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/core/lv_indev.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/core/lv_indev_scroll.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/core/lv_obj.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/core/lv_obj_class.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/core/lv_obj_draw.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/core/lv_obj_pos.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/core/lv_obj_scroll.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/core/lv_obj_style.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/core/lv_obj_style_gen.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/core/lv_obj_tree.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/core/lv_refr.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/core/lv_theme.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/draw/arm2d/lv_gpu_arm2d.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/draw/lv_draw.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/draw/lv_draw_arc.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/draw/lv_draw_img.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/draw/lv_draw_label.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/draw/lv_draw_layer.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/draw/lv_draw_line.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/draw/lv_draw_mask.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/draw/lv_draw_rect.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/draw/lv_draw_transform.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/draw/lv_draw_triangle.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/draw/lv_img_buf.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/draw/lv_img_cache.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/draw/lv_img_decoder.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/draw/nxp/pxp/lv_draw_pxp.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/draw/nxp/pxp/lv_draw_pxp_blend.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/draw/nxp/pxp/lv_gpu_nxp_pxp.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/draw/nxp/pxp/lv_gpu_nxp_pxp_osa.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/draw/nxp/vglite/lv_draw_vglite.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/draw/nxp/vglite/lv_draw_vglite_arc.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/draw/nxp/vglite/lv_draw_vglite_blend.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/draw/nxp/vglite/lv_draw_vglite_line.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/draw/nxp/vglite/lv_draw_vglite_rect.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/draw/nxp/vglite/lv_vglite_buf.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/draw/nxp/vglite/lv_vglite_utils.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/draw/renesas/lv_gpu_d2_draw_label.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/draw/renesas/lv_gpu_d2_ra6m3.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/draw/sdl/lv_draw_sdl.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/draw/sdl/lv_draw_sdl_arc.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/draw/sdl/lv_draw_sdl_bg.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/draw/sdl/lv_draw_sdl_composite.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/draw/sdl/lv_draw_sdl_img.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/draw/sdl/lv_draw_sdl_label.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/draw/sdl/lv_draw_sdl_layer.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/draw/sdl/lv_draw_sdl_line.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/draw/sdl/lv_draw_sdl_mask.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/draw/sdl/lv_draw_sdl_polygon.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/draw/sdl/lv_draw_sdl_rect.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/draw/sdl/lv_draw_sdl_stack_blur.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/draw/sdl/lv_draw_sdl_texture_cache.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/draw/sdl/lv_draw_sdl_utils.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/draw/sw/lv_draw_sw.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/draw/sw/lv_draw_sw_arc.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/draw/sw/lv_draw_sw_blend.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/draw/sw/lv_draw_sw_dither.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/draw/sw/lv_draw_sw_gradient.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/draw/sw/lv_draw_sw_img.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/draw/sw/lv_draw_sw_layer.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/draw/sw/lv_draw_sw_letter.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/draw/sw/lv_draw_sw_line.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/draw/sw/lv_draw_sw_polygon.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/draw/sw/lv_draw_sw_rect.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/draw/sw/lv_draw_sw_transform.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/draw/swm341_dma2d/lv_gpu_swm341_dma2d.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/extra/layouts/flex/lv_flex.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/extra/layouts/grid/lv_grid.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/extra/libs/bmp/lv_bmp.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/extra/libs/ffmpeg/lv_ffmpeg.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/extra/libs/freetype/lv_freetype.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/extra/libs/fsdrv/lv_fs_posix.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/extra/libs/fsdrv/lv_fs_stdio.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/extra/libs/fsdrv/lv_fs_win32.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/extra/libs/gif/gifdec.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/extra/libs/gif/lv_gif.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/extra/libs/png/lodepng.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/extra/libs/png/lv_png.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/extra/libs/qrcode/lv_qrcode.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/extra/libs/qrcode/qrcodegen.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/extra/libs/rlottie/lv_rlottie.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/extra/libs/sjpg/lv_sjpg.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/extra/libs/sjpg/tjpgd.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/extra/lv_extra.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/extra/others/fragment/lv_fragment.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/extra/others/fragment/lv_fragment_manager.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/extra/others/gridnav/lv_gridnav.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/extra/others/ime/lv_ime_pinyin.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/extra/others/imgfont/lv_imgfont.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/extra/others/monkey/lv_monkey.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/extra/others/msg/lv_msg.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/extra/others/snapshot/lv_snapshot.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/extra/themes/basic/lv_theme_basic.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/extra/themes/default/lv_theme_default.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/extra/themes/mono/lv_theme_mono.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/extra/widgets/animimg/lv_animimg.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/extra/widgets/calendar/lv_calendar.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/extra/widgets/calendar/lv_calendar_header_arrow.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/extra/widgets/calendar/lv_calendar_header_dropdown.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/extra/widgets/chart/lv_chart.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/extra/widgets/colorwheel/lv_colorwheel.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/extra/widgets/imgbtn/lv_imgbtn.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/extra/widgets/keyboard/lv_keyboard.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/extra/widgets/led/lv_led.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/extra/widgets/list/lv_list.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/extra/widgets/menu/lv_menu.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/extra/widgets/meter/lv_meter.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/extra/widgets/msgbox/lv_msgbox.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/extra/widgets/span/lv_span.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/extra/widgets/spinbox/lv_spinbox.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/extra/widgets/spinner/lv_spinner.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/extra/widgets/tabview/lv_tabview.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/extra/widgets/tileview/lv_tileview.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/extra/widgets/win/lv_win.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/font/lv_font.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/font/lv_font_dejavu_16_persian_hebrew.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/font/lv_font_fmt_txt.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/font/lv_font_loader.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/font/lv_font_montserrat_10.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/font/lv_font_montserrat_12.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/font/lv_font_montserrat_12_subpx.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/font/lv_font_montserrat_14.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/font/lv_font_montserrat_16.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/font/lv_font_montserrat_18.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/font/lv_font_montserrat_20.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/font/lv_font_montserrat_22.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/font/lv_font_montserrat_24.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/font/lv_font_montserrat_26.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/font/lv_font_montserrat_28.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/font/lv_font_montserrat_28_compressed.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/font/lv_font_montserrat_30.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/font/lv_font_montserrat_32.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/font/lv_font_montserrat_34.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/font/lv_font_montserrat_36.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/font/lv_font_montserrat_38.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/font/lv_font_montserrat_40.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/font/lv_font_montserrat_42.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/font/lv_font_montserrat_44.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/font/lv_font_montserrat_46.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/font/lv_font_montserrat_48.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/font/lv_font_montserrat_8.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/font/lv_font_simsun_16_cjk.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/font/lv_font_unscii_16.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/font/lv_font_unscii_8.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/hal/lv_hal_disp.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/hal/lv_hal_indev.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/hal/lv_hal_tick.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/misc/lv_anim.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/misc/lv_anim_timeline.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/misc/lv_area.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/misc/lv_async.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/misc/lv_bidi.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/misc/lv_color.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/misc/lv_fs.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/misc/lv_gc.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/misc/lv_ll.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/misc/lv_log.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/misc/lv_lru.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/misc/lv_math.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/misc/lv_mem.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/misc/lv_printf.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/misc/lv_style.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/misc/lv_style_gen.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/misc/lv_templ.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/misc/lv_timer.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/misc/lv_tlsf.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/misc/lv_txt.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/misc/lv_txt_ap.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/misc/lv_utils.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/widgets/lv_arc.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/widgets/lv_bar.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/widgets/lv_btn.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/widgets/lv_btnmatrix.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/widgets/lv_canvas.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/widgets/lv_checkbox.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/widgets/lv_dropdown.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/widgets/lv_img.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/widgets/lv_label.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/widgets/lv_line.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/widgets/lv_objx_templ.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/widgets/lv_roller.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/widgets/lv_slider.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/widgets/lv_switch.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/widgets/lv_table.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/lvgl/src/widgets/lv_textarea.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/music/assets/img_lv_demo_music_btn_corner_large.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/music/assets/img_lv_demo_music_btn_list_pause.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/music/assets/img_lv_demo_music_btn_list_pause_large.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/music/assets/img_lv_demo_music_btn_list_play.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/music/assets/img_lv_demo_music_btn_list_play_large.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/music/assets/img_lv_demo_music_btn_loop.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/music/assets/img_lv_demo_music_btn_loop_large.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/music/assets/img_lv_demo_music_btn_next.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/music/assets/img_lv_demo_music_btn_next_large.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/music/assets/img_lv_demo_music_btn_pause.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/music/assets/img_lv_demo_music_btn_pause_large.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/music/assets/img_lv_demo_music_btn_play.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/music/assets/img_lv_demo_music_btn_play_large.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/music/assets/img_lv_demo_music_btn_prev.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/music/assets/img_lv_demo_music_btn_prev_large.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/music/assets/img_lv_demo_music_btn_rnd.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/music/assets/img_lv_demo_music_btn_rnd_large.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/music/assets/img_lv_demo_music_corner_left.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/music/assets/img_lv_demo_music_corner_left_large.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/music/assets/img_lv_demo_music_corner_right.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/music/assets/img_lv_demo_music_corner_right_large.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/music/assets/img_lv_demo_music_cover_1.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/music/assets/img_lv_demo_music_cover_1_large.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/music/assets/img_lv_demo_music_cover_2.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/music/assets/img_lv_demo_music_cover_2_large.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/music/assets/img_lv_demo_music_cover_3.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/music/assets/img_lv_demo_music_cover_3_large.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/music/assets/img_lv_demo_music_icon_1.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/music/assets/img_lv_demo_music_icon_1_large.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/music/assets/img_lv_demo_music_icon_2.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/music/assets/img_lv_demo_music_icon_2_large.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/music/assets/img_lv_demo_music_icon_3.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/music/assets/img_lv_demo_music_icon_3_large.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/music/assets/img_lv_demo_music_icon_4.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/music/assets/img_lv_demo_music_icon_4_large.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/music/assets/img_lv_demo_music_list_border.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/music/assets/img_lv_demo_music_list_border_large.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/music/assets/img_lv_demo_music_logo.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/music/assets/img_lv_demo_music_slider_knob.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/music/assets/img_lv_demo_music_slider_knob_large.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/music/assets/img_lv_demo_music_wave_bottom.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/music/assets/img_lv_demo_music_wave_bottom_large.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/music/assets/img_lv_demo_music_wave_top.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/music/assets/img_lv_demo_music_wave_top_large.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/music/lv_demo_music.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/music/lv_demo_music_list.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/music/lv_demo_music_main.c.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rules.ninja" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/LVGL_TEST.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/LVGL_TEST.elf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/LVGL_TEST.hex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/LVGL_TEST.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/build.ninja" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake/gcc-arm-none-eabi.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake/st-project.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom/custom.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom/custom.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom/custom.mk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/custom/lv_conf_ext.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generated/events_init.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generated/events_init.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generated/generated.mk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generated/gui_guider.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generated/gui_guider.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generated/guider_customer_fonts/guider_customer_fonts.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generated/guider_customer_fonts/guider_customer_fonts.mk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generated/guider_fonts/guider_fonts.mk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generated/guider_fonts/lv_font_AlexBrush_Regular_18.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generated/guider_fonts/lv_font_montserratMedium_12.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generated/guider_fonts/lv_font_simsun_18.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generated/images/images.mk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generated/setup_scr_screen_1.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generated/widgets_init.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/generated/widgets_init.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_lib_100ask/lv_lib_100ask.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_lib_100ask/lv_lib_100ask_conf.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_lib_100ask/lv_lib_100ask_conf_internal.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_lib_100ask/src/lv_100ask_2048/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_lib_100ask/src/lv_100ask_2048/README_zh.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_lib_100ask/src/lv_100ask_2048/lv_100ask_2048.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_lib_100ask/src/lv_100ask_2048/lv_100ask_2048.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_lib_100ask/src/lv_100ask_2048/lv_100ask_2048_demo.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_lib_100ask/src/lv_100ask_2048/lv_100ask_2048_demo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_lib_100ask/src/lv_100ask_calc/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_lib_100ask/src/lv_100ask_calc/README_zh.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_lib_100ask/src/lv_100ask_calc/lv_100ask_calc.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_lib_100ask/src/lv_100ask_calc/lv_100ask_calc.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_lib_100ask/src/lv_100ask_calc/lv_100ask_calc_demo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_lib_100ask/src/lv_100ask_file_explorer/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_lib_100ask/src/lv_100ask_file_explorer/README_zh.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_lib_100ask/src/lv_100ask_file_explorer/lv_100ask_file_explorer.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_lib_100ask/src/lv_100ask_file_explorer/lv_100ask_file_explorer.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_lib_100ask/src/lv_100ask_file_explorer/lv_100ask_file_explorer_demo.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_lib_100ask/src/lv_100ask_memory_game/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_lib_100ask/src/lv_100ask_memory_game/README_zh.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_lib_100ask/src/lv_100ask_memory_game/lv_100ask_memory_game.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_lib_100ask/src/lv_100ask_memory_game/lv_100ask_memory_game.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_lib_100ask/src/lv_100ask_memory_game/lv_100ask_memory_game_demo.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_lib_100ask/src/lv_100ask_memory_game/lv_100ask_memory_game_demo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_lib_100ask/src/lv_100ask_nes/InfoNES.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_lib_100ask/src/lv_100ask_nes/InfoNES.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_lib_100ask/src/lv_100ask_nes/InfoNES_Mapper.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_lib_100ask/src/lv_100ask_nes/InfoNES_Mapper.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_lib_100ask/src/lv_100ask_nes/InfoNES_System.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_lib_100ask/src/lv_100ask_nes/InfoNES_System.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_lib_100ask/src/lv_100ask_nes/InfoNES_Types.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_lib_100ask/src/lv_100ask_nes/InfoNES_pAPU.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_lib_100ask/src/lv_100ask_nes/InfoNES_pAPU.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_lib_100ask/src/lv_100ask_nes/K6502.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_lib_100ask/src/lv_100ask_nes/K6502.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_lib_100ask/src/lv_100ask_nes/K6502_rw.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_lib_100ask/src/lv_100ask_nes/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_lib_100ask/src/lv_100ask_nes/README_zh.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_lib_100ask/src/lv_100ask_nes/lv_100ask_nes.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_lib_100ask/src/lv_100ask_nes/lv_100ask_nes.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_lib_100ask/src/lv_100ask_nes/lv_100ask_nes_demo.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_000.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_000.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_001.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_001.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_002.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_002.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_003.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_003.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_004.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_004.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_005.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_005.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_006.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_006.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_007.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_007.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_008.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_008.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_009.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_009.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_010.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_010.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_074.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_lib_100ask/src/lv_100ask_nes/mapper/InfoNES_Mapper_074.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_lib_100ask/src/lv_100ask_page_manager/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_lib_100ask/src/lv_100ask_page_manager/README_zh.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_lib_100ask/src/lv_100ask_page_manager/lv_100ask_page_manager.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_lib_100ask/src/lv_100ask_page_manager/lv_100ask_page_manager.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_lib_100ask/src/lv_100ask_page_manager/lv_100ask_page_manager_demo.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_lib_100ask/src/lv_100ask_pinyin_ime/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_lib_100ask/src/lv_100ask_pinyin_ime/README_zh.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_lib_100ask/src/lv_100ask_pinyin_ime/lv_100ask_pinyin_ime.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_lib_100ask/src/lv_100ask_pinyin_ime/lv_100ask_pinyin_ime.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_lib_100ask/src/lv_100ask_pinyin_ime/lv_100ask_pinyin_ime.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_lib_100ask/src/lv_100ask_pinyin_ime/screenshot1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_lib_100ask/src/lv_100ask_sketchpad/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_lib_100ask/src/lv_100ask_sketchpad/README_zh.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_lib_100ask/src/lv_100ask_sketchpad/lv_100ask_sketchpad.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_lib_100ask/src/lv_100ask_sketchpad/lv_100ask_sketchpad.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_lib_100ask/src/lv_100ask_sketchpad/lv_100ask_sketchpad_demo.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_lib_100ask/src/lv_lib_100ask.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_lib_100ask/test/lv_100ask_2048_test/simple_test.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_lib_100ask/test/lv_100ask_2048_test/simple_test.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_lib_100ask/test/lv_100ask_calc_test/simple_test.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_lib_100ask/test/lv_100ask_calc_test/simple_test.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_lib_100ask/test/lv_100ask_file_explorer/simple_test.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_lib_100ask/test/lv_100ask_file_explorer/simple_test.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_lib_100ask/test/lv_100ask_memory_game_test/simple_test.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_lib_100ask/test/lv_100ask_memory_game_test/simple_test.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_lib_100ask/test/lv_100ask_nes_test/lv_100ask_nes_simple_test.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_lib_100ask/test/lv_100ask_nes_test/lv_100ask_nes_simple_test.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_lib_100ask/test/lv_100ask_page_manager_test/simple_test.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_lib_100ask/test/lv_100ask_page_manager_test/simple_test.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_lib_100ask/test/lv_100ask_pinyin_ime_test/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_lib_100ask/test/lv_100ask_pinyin_ime_test/lv_font_source_han_sans_normal_16.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_lib_100ask/test/lv_100ask_pinyin_ime_test/simple_test.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_lib_100ask/test/lv_100ask_pinyin_ime_test/simple_test.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_lib_100ask/test/lv_100ask_pinyin_ime_test/source_han_sans_normal.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_lib_100ask/test/lv_100ask_sketchpad_test/simple_test.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lv_lib_100ask/test/lv_100ask_sketchpad_test/simple_test.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/lv_conf.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/lv_demos.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/lvgl.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/porting/lv_port_disp.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/porting/lv_port_disp.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/porting/lv_port_fs.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/porting/lv_port_fs.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/porting/lv_port_indev.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/porting/lv_port_indev.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/core/lv_core.mk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/core/lv_disp.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/core/lv_disp.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/core/lv_event.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/core/lv_event.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/core/lv_group.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/core/lv_group.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/core/lv_indev.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/core/lv_indev.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/core/lv_indev_scroll.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/core/lv_indev_scroll.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/core/lv_obj.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/core/lv_obj.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/core/lv_obj_class.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/core/lv_obj_class.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/core/lv_obj_draw.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/core/lv_obj_draw.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/core/lv_obj_pos.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/core/lv_obj_pos.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/core/lv_obj_scroll.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/core/lv_obj_scroll.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/core/lv_obj_style.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/core/lv_obj_style.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/core/lv_obj_style_gen.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/core/lv_obj_style_gen.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/core/lv_obj_tree.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/core/lv_obj_tree.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/core/lv_refr.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/core/lv_refr.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/core/lv_theme.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/core/lv_theme.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/draw/arm2d/lv_draw_arm2d.mk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/draw/arm2d/lv_gpu_arm2d.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/draw/arm2d/lv_gpu_arm2d.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/draw/lv_draw.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/draw/lv_draw.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/draw/lv_draw.mk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/draw/lv_draw_arc.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/draw/lv_draw_arc.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/draw/lv_draw_img.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/draw/lv_draw_img.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/draw/lv_draw_label.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/draw/lv_draw_label.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/draw/lv_draw_layer.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/draw/lv_draw_layer.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/draw/lv_draw_line.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/draw/lv_draw_line.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/draw/lv_draw_mask.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/draw/lv_draw_mask.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/draw/lv_draw_rect.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/draw/lv_draw_rect.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/draw/lv_draw_transform.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/draw/lv_draw_transform.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/draw/lv_draw_triangle.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/draw/lv_draw_triangle.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/draw/lv_img_buf.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/draw/lv_img_buf.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/draw/lv_img_cache.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/draw/lv_img_cache.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/draw/lv_img_decoder.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/draw/lv_img_decoder.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/draw/nxp/lv_draw_nxp.mk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/draw/nxp/pxp/lv_draw_nxp_pxp.mk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/draw/nxp/pxp/lv_draw_pxp.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/draw/nxp/pxp/lv_draw_pxp.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/draw/nxp/pxp/lv_draw_pxp_blend.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/draw/nxp/pxp/lv_draw_pxp_blend.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/draw/nxp/pxp/lv_gpu_nxp_pxp.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/draw/nxp/pxp/lv_gpu_nxp_pxp.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/draw/nxp/pxp/lv_gpu_nxp_pxp_osa.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/draw/nxp/pxp/lv_gpu_nxp_pxp_osa.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/draw/nxp/vglite/lv_draw_nxp_vglite.mk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/draw/nxp/vglite/lv_draw_vglite.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/draw/nxp/vglite/lv_draw_vglite.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/draw/nxp/vglite/lv_draw_vglite_arc.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/draw/nxp/vglite/lv_draw_vglite_arc.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/draw/nxp/vglite/lv_draw_vglite_blend.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/draw/nxp/vglite/lv_draw_vglite_blend.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/draw/nxp/vglite/lv_draw_vglite_line.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/draw/nxp/vglite/lv_draw_vglite_line.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/draw/nxp/vglite/lv_draw_vglite_rect.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/draw/nxp/vglite/lv_draw_vglite_rect.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/draw/nxp/vglite/lv_vglite_buf.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/draw/nxp/vglite/lv_vglite_buf.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/draw/nxp/vglite/lv_vglite_utils.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/draw/nxp/vglite/lv_vglite_utils.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/draw/renesas/lv_draw_renesas.mk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/draw/renesas/lv_gpu_d2_draw_label.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/draw/renesas/lv_gpu_d2_ra6m3.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/draw/renesas/lv_gpu_d2_ra6m3.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/draw/sdl/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/draw/sdl/lv_draw_sdl.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/draw/sdl/lv_draw_sdl.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/draw/sdl/lv_draw_sdl.mk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/draw/sdl/lv_draw_sdl_arc.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/draw/sdl/lv_draw_sdl_bg.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/draw/sdl/lv_draw_sdl_composite.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/draw/sdl/lv_draw_sdl_composite.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/draw/sdl/lv_draw_sdl_img.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/draw/sdl/lv_draw_sdl_img.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/draw/sdl/lv_draw_sdl_label.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/draw/sdl/lv_draw_sdl_layer.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/draw/sdl/lv_draw_sdl_layer.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/draw/sdl/lv_draw_sdl_line.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/draw/sdl/lv_draw_sdl_mask.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/draw/sdl/lv_draw_sdl_mask.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/draw/sdl/lv_draw_sdl_polygon.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/draw/sdl/lv_draw_sdl_priv.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/draw/sdl/lv_draw_sdl_rect.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/draw/sdl/lv_draw_sdl_rect.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/draw/sdl/lv_draw_sdl_stack_blur.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/draw/sdl/lv_draw_sdl_stack_blur.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/draw/sdl/lv_draw_sdl_texture_cache.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/draw/sdl/lv_draw_sdl_texture_cache.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/draw/sdl/lv_draw_sdl_utils.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/draw/sdl/lv_draw_sdl_utils.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/draw/stm32_dma2d/lv_draw_stm32_dma2d.mk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/draw/stm32_dma2d/lv_gpu_stm32_dma2d.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/draw/sw/lv_draw_sw.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/draw/sw/lv_draw_sw.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/draw/sw/lv_draw_sw.mk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/draw/sw/lv_draw_sw_arc.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/draw/sw/lv_draw_sw_blend.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/draw/sw/lv_draw_sw_blend.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/draw/sw/lv_draw_sw_dither.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/draw/sw/lv_draw_sw_dither.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/draw/sw/lv_draw_sw_gradient.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/draw/sw/lv_draw_sw_gradient.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/draw/sw/lv_draw_sw_img.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/draw/sw/lv_draw_sw_layer.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/draw/sw/lv_draw_sw_letter.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/draw/sw/lv_draw_sw_line.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/draw/sw/lv_draw_sw_polygon.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/draw/sw/lv_draw_sw_rect.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/draw/sw/lv_draw_sw_transform.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/draw/swm341_dma2d/lv_draw_swm341_dma2d.mk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/draw/swm341_dma2d/lv_gpu_swm341_dma2d.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/draw/swm341_dma2d/lv_gpu_swm341_dma2d.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/extra/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/extra/layouts/flex/lv_flex.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/extra/layouts/flex/lv_flex.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/extra/layouts/grid/lv_grid.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/extra/layouts/grid/lv_grid.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/extra/layouts/lv_layouts.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/extra/libs/bmp/lv_bmp.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/extra/libs/bmp/lv_bmp.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/extra/libs/ffmpeg/lv_ffmpeg.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/extra/libs/ffmpeg/lv_ffmpeg.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/extra/libs/freetype/arial.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/extra/libs/freetype/lv_freetype.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/extra/libs/freetype/lv_freetype.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/extra/libs/fsdrv/lv_fs_fatfs.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/extra/libs/fsdrv/lv_fs_posix.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/extra/libs/fsdrv/lv_fs_stdio.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/extra/libs/fsdrv/lv_fs_win32.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/extra/libs/fsdrv/lv_fsdrv.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/extra/libs/gif/gifdec.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/extra/libs/gif/gifdec.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/extra/libs/gif/lv_gif.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/extra/libs/gif/lv_gif.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/extra/libs/lv_libs.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/extra/libs/png/lodepng.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/extra/libs/png/lodepng.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/extra/libs/png/lv_png.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/extra/libs/png/lv_png.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/extra/libs/qrcode/lv_qrcode.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/extra/libs/qrcode/lv_qrcode.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/extra/libs/qrcode/qrcodegen.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/extra/libs/qrcode/qrcodegen.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/extra/libs/rlottie/lv_rlottie.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/extra/libs/rlottie/lv_rlottie.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/extra/libs/sjpg/lv_sjpg.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/extra/libs/sjpg/lv_sjpg.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/extra/libs/sjpg/tjpgd.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/extra/libs/sjpg/tjpgd.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/extra/libs/sjpg/tjpgdcnf.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/extra/lv_extra.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/extra/lv_extra.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/extra/lv_extra.mk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/extra/others/fragment/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/extra/others/fragment/lv_fragment.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/extra/others/fragment/lv_fragment.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/extra/others/fragment/lv_fragment_manager.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/extra/others/gridnav/lv_gridnav.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/extra/others/gridnav/lv_gridnav.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/extra/others/ime/lv_ime_pinyin.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/extra/others/ime/lv_ime_pinyin.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/extra/others/imgfont/lv_imgfont.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/extra/others/imgfont/lv_imgfont.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/extra/others/lv_others.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/extra/others/monkey/lv_monkey.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/extra/others/monkey/lv_monkey.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/extra/others/msg/lv_msg.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/extra/others/msg/lv_msg.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/extra/others/snapshot/lv_snapshot.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/extra/others/snapshot/lv_snapshot.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/extra/themes/basic/lv_theme_basic.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/extra/themes/basic/lv_theme_basic.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/extra/themes/default/lv_theme_default.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/extra/themes/default/lv_theme_default.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/extra/themes/lv_themes.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/extra/themes/mono/lv_theme_mono.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/extra/themes/mono/lv_theme_mono.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/extra/widgets/animimg/lv_animimg.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/extra/widgets/animimg/lv_animimg.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/extra/widgets/calendar/lv_calendar.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/extra/widgets/calendar/lv_calendar.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/extra/widgets/calendar/lv_calendar_header_arrow.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/extra/widgets/calendar/lv_calendar_header_arrow.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/extra/widgets/calendar/lv_calendar_header_dropdown.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/extra/widgets/calendar/lv_calendar_header_dropdown.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/extra/widgets/chart/lv_chart.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/extra/widgets/chart/lv_chart.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/extra/widgets/colorwheel/lv_colorwheel.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/extra/widgets/colorwheel/lv_colorwheel.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/extra/widgets/imgbtn/lv_imgbtn.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/extra/widgets/imgbtn/lv_imgbtn.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/extra/widgets/keyboard/lv_keyboard.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/extra/widgets/keyboard/lv_keyboard.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/extra/widgets/led/lv_led.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/extra/widgets/led/lv_led.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/extra/widgets/list/lv_list.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/extra/widgets/list/lv_list.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/extra/widgets/lv_widgets.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/extra/widgets/menu/lv_menu.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/extra/widgets/menu/lv_menu.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/extra/widgets/meter/lv_meter.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/extra/widgets/meter/lv_meter.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/extra/widgets/msgbox/lv_msgbox.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/extra/widgets/msgbox/lv_msgbox.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/extra/widgets/span/lv_span.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/extra/widgets/span/lv_span.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/extra/widgets/spinbox/lv_spinbox.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/extra/widgets/spinbox/lv_spinbox.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/extra/widgets/spinner/lv_spinner.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/extra/widgets/spinner/lv_spinner.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/extra/widgets/tabview/lv_tabview.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/extra/widgets/tabview/lv_tabview.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/extra/widgets/tileview/lv_tileview.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/extra/widgets/tileview/lv_tileview.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/extra/widgets/win/lv_win.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/extra/widgets/win/lv_win.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/font/korean.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/font/lv_font.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/font/lv_font.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/font/lv_font.mk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/font/lv_font_dejavu_16_persian_hebrew.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/font/lv_font_fmt_txt.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/font/lv_font_fmt_txt.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/font/lv_font_loader.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/font/lv_font_loader.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/font/lv_font_montserrat_10.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/font/lv_font_montserrat_12.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/font/lv_font_montserrat_12_subpx.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/font/lv_font_montserrat_14.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/font/lv_font_montserrat_16.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/font/lv_font_montserrat_18.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/font/lv_font_montserrat_20.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/font/lv_font_montserrat_22.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/font/lv_font_montserrat_24.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/font/lv_font_montserrat_26.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/font/lv_font_montserrat_28.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/font/lv_font_montserrat_28_compressed.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/font/lv_font_montserrat_30.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/font/lv_font_montserrat_32.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/font/lv_font_montserrat_34.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/font/lv_font_montserrat_36.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/font/lv_font_montserrat_38.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/font/lv_font_montserrat_40.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/font/lv_font_montserrat_42.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/font/lv_font_montserrat_44.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/font/lv_font_montserrat_46.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/font/lv_font_montserrat_48.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/font/lv_font_montserrat_8.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/font/lv_font_simsun_16_cjk.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/font/lv_font_unscii_16.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/font/lv_font_unscii_8.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/font/lv_symbol_def.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/hal/lv_hal.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/hal/lv_hal.mk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/hal/lv_hal_disp.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/hal/lv_hal_disp.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/hal/lv_hal_indev.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/hal/lv_hal_indev.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/hal/lv_hal_tick.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/hal/lv_hal_tick.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_api_map.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_conf_internal.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/lv_conf_kconfig.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/lvgl.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/misc/lv_anim.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/misc/lv_anim.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/misc/lv_anim_timeline.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/misc/lv_anim_timeline.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/misc/lv_area.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/misc/lv_area.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/misc/lv_assert.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/misc/lv_async.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/misc/lv_async.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/misc/lv_bidi.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/misc/lv_bidi.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/misc/lv_color.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/misc/lv_color.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/misc/lv_fs.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/misc/lv_fs.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/misc/lv_gc.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/misc/lv_gc.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/misc/lv_ll.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/misc/lv_ll.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/misc/lv_log.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/misc/lv_log.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/misc/lv_lru.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/misc/lv_lru.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/misc/lv_math.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/misc/lv_math.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/misc/lv_mem.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/misc/lv_mem.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/misc/lv_misc.mk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/misc/lv_printf.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/misc/lv_printf.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/misc/lv_style.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/misc/lv_style.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/misc/lv_style_gen.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/misc/lv_style_gen.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/misc/lv_templ.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/misc/lv_templ.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/misc/lv_timer.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/misc/lv_timer.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/misc/lv_tlsf.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/misc/lv_tlsf.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/misc/lv_txt.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/misc/lv_txt.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/misc/lv_txt_ap.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/misc/lv_txt_ap.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/misc/lv_types.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/misc/lv_utils.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/misc/lv_utils.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/widgets/lv_arc.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/widgets/lv_arc.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/widgets/lv_bar.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/widgets/lv_bar.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/widgets/lv_btn.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/widgets/lv_btn.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/widgets/lv_btnmatrix.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/widgets/lv_btnmatrix.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/widgets/lv_canvas.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/widgets/lv_canvas.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/widgets/lv_checkbox.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/widgets/lv_checkbox.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/widgets/lv_dropdown.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/widgets/lv_dropdown.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/widgets/lv_img.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/widgets/lv_img.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/widgets/lv_label.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/widgets/lv_label.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/widgets/lv_line.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/widgets/lv_line.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/widgets/lv_objx_templ.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/widgets/lv_objx_templ.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/widgets/lv_roller.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/widgets/lv_roller.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/widgets/lv_slider.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/widgets/lv_slider.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/widgets/lv_switch.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/widgets/lv_switch.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/widgets/lv_table.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/widgets/lv_table.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/widgets/lv_textarea.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/widgets/lv_textarea.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvgl/src/widgets/lv_widgets.mk" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/music/assets/img_lv_demo_music_btn_corner_large.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/music/assets/img_lv_demo_music_btn_list_pause.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/music/assets/img_lv_demo_music_btn_list_pause_large.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/music/assets/img_lv_demo_music_btn_list_play.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/music/assets/img_lv_demo_music_btn_list_play_large.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/music/assets/img_lv_demo_music_btn_loop.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/music/assets/img_lv_demo_music_btn_loop_large.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/music/assets/img_lv_demo_music_btn_next.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/music/assets/img_lv_demo_music_btn_next_large.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/music/assets/img_lv_demo_music_btn_pause.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/music/assets/img_lv_demo_music_btn_pause_large.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/music/assets/img_lv_demo_music_btn_play.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/music/assets/img_lv_demo_music_btn_play_large.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/music/assets/img_lv_demo_music_btn_prev.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/music/assets/img_lv_demo_music_btn_prev_large.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/music/assets/img_lv_demo_music_btn_rnd.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/music/assets/img_lv_demo_music_btn_rnd_large.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/music/assets/img_lv_demo_music_corner_left.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/music/assets/img_lv_demo_music_corner_left_large.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/music/assets/img_lv_demo_music_corner_right.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/music/assets/img_lv_demo_music_corner_right_large.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/music/assets/img_lv_demo_music_cover_1.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/music/assets/img_lv_demo_music_cover_1_large.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/music/assets/img_lv_demo_music_cover_2.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/music/assets/img_lv_demo_music_cover_2_large.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/music/assets/img_lv_demo_music_cover_3.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/music/assets/img_lv_demo_music_cover_3_large.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/music/assets/img_lv_demo_music_icon_1.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/music/assets/img_lv_demo_music_icon_1_large.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/music/assets/img_lv_demo_music_icon_2.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/music/assets/img_lv_demo_music_icon_2_large.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/music/assets/img_lv_demo_music_icon_3.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/music/assets/img_lv_demo_music_icon_3_large.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/music/assets/img_lv_demo_music_icon_4.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/music/assets/img_lv_demo_music_icon_4_large.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/music/assets/img_lv_demo_music_list_border.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/music/assets/img_lv_demo_music_list_border_large.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/music/assets/img_lv_demo_music_logo.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/music/assets/img_lv_demo_music_slider_knob.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/music/assets/img_lv_demo_music_slider_knob_large.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/music/assets/img_lv_demo_music_wave_bottom.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/music/assets/img_lv_demo_music_wave_bottom_large.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/music/assets/img_lv_demo_music_wave_top.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/music/assets/img_lv_demo_music_wave_top_large.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/music/assets/spectrum.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/music/assets/spectrum_1.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/music/assets/spectrum_2.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/music/assets/spectrum_3.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/music/lv_demo_music.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/music/lv_demo_music.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/music/lv_demo_music_list.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/music/lv_demo_music_list.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/music/lv_demo_music_main.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/music/lv_demo_music_main.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vcpkg-configuration.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="c" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectApplicationVersion">
+    <option name="ide" value="CLion" />
+    <option name="majorVersion" value="2023" />
+    <option name="minorVersion" value="2.2" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2Z4FNfUn7L3QpC95Y1tqVFj0Lhy" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "D:/Clion-proect/LVGL_TEST/lvgl/src",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "vcs.Git",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Clion-proect\LVGL_TEST\lvgl\src" />
+      <recent name="D:\Clion-proect\LVGL_TEST\lv_lib_100ask\test\lv_100ask_2048_test" />
+      <recent name="D:\Clion-proect\LVGL_TEST\lv_lib_100ask\src\lv_100ask_2048" />
+      <recent name="D:\Clion-proect\LVGL_TEST\lv_lib_100ask\test\lv_100ask_pinyin_ime_test" />
+      <recent name="D:\Clion-proect\LVGL_TEST\lv_lib_100ask" />
+    </key>
+  </component>
+  <component name="RunManager" selected="OpenOCD 下载并运行.OCD LVGL_TEST">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LVGL_TEST.elf" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LVGL_TEST" TARGET_NAME="LVGL_TEST.elf" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="LVGL_TEST" RUN_TARGET_NAME="LVGL_TEST.elf">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OCD LVGL_TEST" type="com.jetbrains.cidr.embedded.openocd.conf.type" factoryName="com.jetbrains.cidr.embedded.openocd.conf.factory" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LVGL_TEST" TARGET_NAME="LVGL_TEST.elf" CONFIG_NAME="Debug" version="1" RUN_TARGET_PROJECT_NAME="LVGL_TEST" RUN_TARGET_NAME="LVGL_TEST.elf">
+      <openocd version="1" gdb-port="3333" telnet-port="4444" board-config="board/STlink-Jlink.cfg" reset-type="INIT" download-type="UPDATED_ONLY">
+        <debugger kind="GDB" isBundled="true" />
+      </openocd>
+      <method v="2">
+        <option name="CLION.COMPOUND.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake 应用程序.LVGL_TEST.elf" />
+      <item itemvalue="OpenOCD 下载并运行.OCD LVGL_TEST" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="6109b3df-473f-4994-8610-23493b270030" name="更改" comment="" />
+      <created>1701673405344</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1701673405344</updated>
+      <workItem from="1701673430803" duration="2261000" />
+      <workItem from="1701743278068" duration="537000" />
+      <workItem from="1701743929852" duration="7992000" />
+      <workItem from="1701754685260" duration="187000" />
+      <workItem from="1701765688534" duration="1554000" />
+      <workItem from="1701767258775" duration="3855000" />
+      <workItem from="1701772017493" duration="719000" />
+      <workItem from="1701772903282" duration="1062000" />
+      <workItem from="1701774040297" duration="1078000" />
+      <workItem from="1701775336453" duration="632000" />
+      <workItem from="1701776527252" duration="1674000" />
+      <workItem from="1701778268459" duration="30000" />
+      <workItem from="1701778342662" duration="473000" />
+      <workItem from="1701778826368" duration="68000" />
+      <workItem from="1701778905408" duration="1571000" />
+      <workItem from="1701780493966" duration="80000" />
+      <workItem from="1701850313274" duration="4969000" />
+      <workItem from="1701856571208" duration="2818000" />
+      <workItem from="1701860787492" duration="3283000" />
+      <workItem from="1701919004632" duration="1630000" />
+      <workItem from="1701926894456" duration="3136000" />
+      <workItem from="1701932651218" duration="9054000" />
+      <workItem from="1702014291531" duration="2212000" />
+      <workItem from="1702018714935" duration="11105000" />
+      <workItem from="1702035215502" duration="4798000" />
+      <workItem from="1702098409904" duration="15541000" />
+      <workItem from="1702124562457" duration="1171000" />
+      <workItem from="1702187566535" duration="1003000" />
+      <workItem from="1702190810185" duration="718000" />
+      <workItem from="1702194769310" duration="22000" />
+      <workItem from="1702195229948" duration="61000" />
+      <workItem from="1702195958375" duration="1280000" />
+      <workItem from="1702204767183" duration="56000" />
+      <workItem from="1702214404216" duration="3000" />
+      <workItem from="1702269261102" duration="1410000" />
+      <workItem from="1702292431362" duration="530000" />
+      <workItem from="1702297328559" duration="1434000" />
+      <workItem from="1702351666515" duration="718000" />
+      <workItem from="1702357783495" duration="61000" />
+      <workItem from="1702372872853" duration="597000" />
+      <workItem from="1702373548241" duration="43000" />
+      <workItem from="1702373601512" duration="4000" />
+      <workItem from="1702374173421" duration="23000" />
+      <workItem from="1702374390384" duration="49000" />
+      <workItem from="1702374495552" duration="21000" />
+      <workItem from="1702374650419" duration="191000" />
+      <workItem from="1702377773263" duration="426000" />
+      <workItem from="1702378217021" duration="32000" />
+      <workItem from="1702379011951" duration="94000" />
+      <workItem from="1702381174557" duration="48000" />
+      <workItem from="1702381699784" duration="32000" />
+      <workItem from="1702383995647" duration="3894000" />
+      <workItem from="1702462478220" duration="3000" />
+      <workItem from="1702473255524" duration="85000" />
+      <workItem from="1702473366639" duration="354000" />
+      <workItem from="1702522609301" duration="788000" />
+      <workItem from="1702528137424" duration="245000" />
+      <workItem from="1702959136661" duration="1771000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VCPKGProject">
+    <isAutomaticEditVcpkgJson value="false" />
+    <isAutomaticCheckingOnLaunch value="false" />
+    <isAutomaticFoundErrors value="true" />
+    <isAutomaticFoundErrors value="true" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="初始化LCD和后面所需外设" />
+    <option name="LAST_COMMIT_MESSAGE" value="初始化LCD和后面所需外设" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Core/Src/FreeRTOS_TASK.c</url>
+          <line>19</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Core/Src/FreeRTOS_TASK.c</url>
+          <line>17</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/generated/events_init.h</url>
+          <line>20</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Core/Src/main.c</url>
+          <line>116</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="com.jetbrains.cidr.embedded.openocd.conf.type">
+        <watch expression="ADC1_NUM" language="ObjectiveC" />
+        <watch expression="num" language="ObjectiveC" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
