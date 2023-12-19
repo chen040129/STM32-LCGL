@@ -121,12 +121,23 @@ int main(void)
     lv_init();//lvgl初始化
     lv_port_disp_init();//lvgl接口初始化
     lv_port_indev_init();//lvgl触摸初始化
-
+    setup_ui(&guider_ui);
+    events_init(&guider_ui);
   /* USER CODE END 2 */
 
   /* Infinite loop */
-  /* USER CODE BEGIN WHILE */
+    lv_chart_series_t *ser1=lv_chart_add_series(guider_ui.screen_1_chart_1,lv_color_hex(0x000000),LV_CHART_AXIS_PRIMARY_Y);//指定的颜色、屏幕和图表ID
+    /* USER CODE BEGIN WHILE */
     while (1) {
+        for (int i = 0; i < 1024; ++i) {
+            ADC1_NUM[i] = HAL_ADC_GetValue(&hadc1) * 3.3 / 4096;//采集ADC值
+        }
+        for (int i = 0; i < 1024; ++i) {
+            lv_chart_set_next_value(guider_ui.screen_1_chart_1, ser1, ADC1_NUM[i] * 10);
+        }
+
+        lv_task_handler();
+        tp_dev.scan(1);
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */

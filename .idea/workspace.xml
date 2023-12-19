@@ -25,7 +25,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6109b3df-473f-4994-8610-23493b270030" name="更改" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Core/Src/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/Core/Src/main.c.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/LVGL_TEST.elf.dir/Core/Src/main.c.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/LVGL_TEST.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/LVGL_TEST.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/LVGL_TEST.elf" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/LVGL_TEST.elf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/LVGL_TEST.hex" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/LVGL_TEST.hex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/LVGL_TEST.map" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/LVGL_TEST.map" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +52,7 @@
     </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="dev01-2048" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -74,7 +82,7 @@
     "WebServerToolWindowFactoryState": "false",
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
-    "git-widget-placeholder": "dev01-ADC",
+    "git-widget-placeholder": "dev02-ADC",
     "last_opened_file_path": "D:/Clion-proect/LVGL_TEST/lvgl/src",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -183,7 +191,7 @@
       <workItem from="1702473366639" duration="354000" />
       <workItem from="1702522609301" duration="788000" />
       <workItem from="1702528137424" duration="245000" />
-      <workItem from="1702959136661" duration="2077000" />
+      <workItem from="1702959136661" duration="3594000" />
     </task>
     <task id="LOCAL-00001" summary="初始化LCD和后面所需外设">
       <option name="closed" value="true" />
@@ -201,7 +209,23 @@
       <option name="project" value="LOCAL" />
       <updated>1702961346572</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="lvgl初始化">
+      <option name="closed" value="true" />
+      <created>1702961493635</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1702961493635</updated>
+    </task>
+    <task id="LOCAL-00004" summary="2048示例代码">
+      <option name="closed" value="true" />
+      <created>1702961599988</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1702961599988</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -224,7 +248,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="dev01-ADC" />
+                        <option value="dev01-2048" />
                       </list>
                     </value>
                   </entry>
@@ -240,7 +264,9 @@
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="初始化LCD和后面所需外设" />
     <MESSAGE value="在STM32F407上的2048（移植）" />
-    <option name="LAST_COMMIT_MESSAGE" value="在STM32F407上的2048（移植）" />
+    <MESSAGE value="lvgl初始化" />
+    <MESSAGE value="2048示例代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="2048示例代码" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -259,6 +285,11 @@
           <url>file://$PROJECT_DIR$/generated/events_init.h</url>
           <line>20</line>
           <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Core/Src/main.c</url>
+          <line>134</line>
+          <option name="timeStamp" value="19" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
