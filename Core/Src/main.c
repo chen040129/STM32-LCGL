@@ -118,6 +118,9 @@ int main(void)
     lcd_init();//屏幕初始化
     lcd_display_dir(1);//将屏幕设置为横屏
     tp_dev.init();//触屏初始化
+    lv_init();//lvgl初始化
+    lv_port_disp_init();//lvgl接口初始化
+    lv_port_indev_init();//lvgl触摸初始化
 
   /* USER CODE END 2 */
 
