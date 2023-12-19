@@ -121,12 +121,15 @@ int main(void)
     lv_init();//lvgl初始化
     lv_port_disp_init();//lvgl接口初始化
     lv_port_indev_init();//lvgl触摸初始化
+    lv_100ask_2048_simple_test();//2048示例代码初始化
 
   /* USER CODE END 2 */
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
     while (1) {
+        lv_task_handler();//lvgl任务调度器
+        tp_dev.scan(1);//屏幕扫描
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
